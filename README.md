@@ -6,7 +6,7 @@ The simulation includes 10 lysozyme molecules (~200mg/ml) in a 23%mol water/glyc
 Protein and glycerol molecules are simulated using CHARMM36 and water with TIP4P-Ew.
 http://mackerell.umaryland.edu/charmm_ff.shtml
 
-The packages are initialised using NixOS, see here. 
+Gromacs packages are initialised using NixOS, see here. 
 https://github.com/markuskowa/NixOS-QChem
 
 -----
