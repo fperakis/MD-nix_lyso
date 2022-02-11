@@ -9,9 +9,7 @@ https://github.com/markuskowa/NixOS-QChem
 
 -----
 
-## USAGE
-
-### startup
+## Startup
 
 Using ssh
 ```bash 
@@ -26,7 +24,7 @@ and umount when finished
 umount /local_path
 ```
 
-### run gmx interactively
+## Run gmx interactively
 activate nix for runing interactive tasks
 ```bash 
 $ nix-shell -p qchem-unstable.gromacs
@@ -36,7 +34,7 @@ test by checking version
 $ gmx -version
 ```
 
-### run on GPU using slurm
+## Run on GPU using slurm
 
 submit job on cluster
 ```bash
