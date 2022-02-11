@@ -6,3 +6,5 @@ Here is simulated several lysozyme molecules in water/glycerol mixture.
 
 The packages are initialised using NixOS, see here. 
 https://github.com/markuskowa/NixOS-QChem
+
+## Usage
