@@ -21,14 +21,28 @@ and sshfs
 ```bash
 $ sshfs -p 31422 username@sol-login.fysik.su.se:/cfs/home/username /local_folder
 ```
+and umount when finished
+```bash
+umount /local_folder
+```
+
+### run gmx interactively
 activate nix for runing interactive tasks
 ```bash 
 $ nix-shell -p qchem-unstable.gromacs
 ```
+test by checking version
+```bash 
+$ gmx -version
+```
 
-### test run 
+### run on GPU using slurm
 
-to test the performance on the cluster run
+submit job on cluster
 ```bash
 $ sbatch slurm/cuda_test
+```
+check status
+```bash
+$ squeue -u username
 ```
