@@ -11,13 +11,24 @@ https://github.com/markuskowa/NixOS-QChem
 
 ## USAGE
 
-### connecting to the cluster
+### startup
 
 Using ssh
 ```bash 
-ssh -p 31422 username@sol-nix.fysik.su.se
+$ ssh -p 31422 username@sol-nix.fysik.su.se
 ```
 and sshfs
 ```bash
-sshfs -p 31422 username@sol-login.fysik.su.se:/cfs/home/username /local_folder
+$ sshfs -p 31422 username@sol-login.fysik.su.se:/cfs/home/username /local_folder
+```
+activate nix for runing interactive tasks
+```bash 
+$ nix-shell -p qchem-unstable.gromacs
+```
+
+### test run 
+
+to test the performance on the cluster run
+```bash
+$ sbatch slurm/cuda_test
 ```
