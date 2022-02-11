@@ -19,11 +19,11 @@ $ ssh -p 31422 username@sol-nix.fysik.su.se
 ```
 and sshfs
 ```bash
-$ sshfs -p 31422 username@sol-login.fysik.su.se:/cfs/home/username /local_folder
+$ sshfs -p 31422 username@sol-login.fysik.su.se:/cfs/home/username /local_path
 ```
 and umount when finished
 ```bash
-umount /local_folder
+umount /local_path
 ```
 
 ### run gmx interactively
