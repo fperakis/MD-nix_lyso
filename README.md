@@ -7,4 +7,17 @@ Here is simulated several lysozyme molecules in water/glycerol mixture.
 The packages are initialised using NixOS, see here. 
 https://github.com/markuskowa/NixOS-QChem
 
-## Usage
+-----
+
+## USAGE
+
+### connecting to the cluster
+
+Using ssh
+```bash 
+ssh -p 31422 username@sol-nix.fysik.su.se
+```
+and sshfs
+```bash
+sshfs -p 31422 username@sol-login.fysik.su.se:/cfs/home/username /local_folder
+```
