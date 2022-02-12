@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash /cfs/home/fpera/gmx_simulations/06_test_nix/cuda.nix
+#!nix-shell -i bash nix-files/cuda.nix
 
 # Number of tasks
 #SBATCH -n24
