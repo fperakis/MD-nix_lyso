@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash nix_files/cpu.nix
+#!nix-shell -i bash path_to_nix_files/cpu.nix
 #
 #SBATCH -n64
 #SBATCH -pcops
